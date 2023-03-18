@@ -1,0 +1,87 @@
+
+.margin-nav-link {
+    margin-left: 32%;
+  }
+  .margin-nav-link a {
+    font-family: Segoe Print;
+  }
+  
+  .nav-link-effect:hover {
+    transition: 0.9s;
+    background-color: rgb(80, 57, 27);
+  }
+  
+  li a {
+    letter-spacing: .2rem;
+  }
+  nav{
+    background-color: rgba(169, 101, 41, 0.477);
+    box-shadow: 5px 10px #00000022;
+    /* border-bottom: 0.05rem white solid; */
+  }
+  footer{
+    
+      background-color: rgb(185, 122, 67);
+  
+      /* border-bottom: 0.05rem white solid; */
+    
+  }
+  .section1 {
+    background-image: url(Images/bg1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .hero-text{
+    font-weight: bolder;
+    font-size:3rem;
+    color: rgb(245, 214, 183);;
+    font-family: Segoe Print;
+    animation: animate-a infinite 2s;
+    animation-direction: alternate;
+  }
+  
+  @keyframes animate-a {
+    from {
+      
+    }
+  
+    to {
+      text-shadow: 7px 7px 12px #000000;
+      
+    }
+  }
+  @media(max-width:1000px){
+    .hero-text{
+justify-content: center;
+color: rgb(245, 214, 183);
+    }
+    .col-image{
+      display:none;
+    }
+    .section1{
+      background-image: url(Images/bg2.jpg);
+    }
+
+  }
+  .hero-img{
+    animation: animate-img infinite 1.5s;
+    animation-direction: alternate;
+  }
+  
+  @keyframes animate-img {
+    from {
+      transform: scale(1);
+    }
+  
+    to {
+      transform: scale(1.1);
+      
+      
+    }
+  }
+  
+  /* .HeroSection {
+    background-color: rgba(0, 0, 0, 0.66);
+    padding: 10%;
+    line-height: 0.1rem;
+  } */
