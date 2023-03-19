@@ -1,5 +1,8 @@
-let name =prompt("Enter your name");
-const Gender=prompt("Enter your gender");
+var name =prompt("Enter your name");
+
+while(Gender != "male" && Gender != "female"){
+    var Gender =prompt("Enter your gender");  
+}
 
 if(Gender =="male"){
     name="Mr. "+name;
@@ -19,6 +22,12 @@ alert("The drink will be prepared soon \n please wait...")
 console.log("Name: "+name);
 console.log("Your drink: " + drinkType+" "+drink)
 
+let arr =[];
+arr.push(name,Gender,drinkType,drink)
+
+for(let x=0;x<arr.length;x++){
+    console.log(arr[x])
+}
 
 
 
