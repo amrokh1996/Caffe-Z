@@ -1,19 +1,7 @@
 var name =prompt("Enter your name");
+var Gender =prompt("Enter your gender");
 
-while(Gender != "male" && Gender != "female"){
-    var Gender =prompt("Enter your gender");  
-}
-
-if(Gender =="male"){
-    name="Mr. "+name;
-    alert("Welcome "+name)
-}else if(Gender =="female"){
-    name="Mr. "+name;
-    alert("Welcome "+name)
-}else{
-    alert("Welcome "+name) 
-}
-
+genderFun(Gender);
 
 const drinkType =prompt("Would you like a hot or cold drink?");
 const drink =prompt("What do want to drink?");
@@ -27,6 +15,22 @@ arr.push(name,Gender,drinkType,drink)
 
 for(let x=0;x<arr.length;x++){
     console.log(arr[x])
+}
+
+function genderFun(){
+    while(Gender != "male" && Gender != "female"){
+        Gender =prompt("Enter your gender");  
+    }
+    
+    if(Gender =="male"){
+        name="Mr. "+name;
+        alert("Welcome "+name)
+    }else if(Gender =="female"){
+        name="Mr. "+name;
+        alert("Welcome "+name)
+    }else{
+        alert("Welcome "+name) 
+    }
 }
 
 
