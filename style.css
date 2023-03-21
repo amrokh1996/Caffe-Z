@@ -19,6 +19,27 @@
     box-shadow: 5px 10px #00000022;
     /* border-bottom: 0.05rem white solid; */
   }
+  #order{
+    border-radius: 20px;
+    border: 0.2rem black solid;
+    width: 10rem;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    background-color: rgb(253, 228, 194);
+    display: none;
+    padding-bottom: 3rem;
+    box-shadow: 7px 7px 12px black;
+  }
+  #order p{
+    font-family: Segoe Print;
+    font-weight: bolder;
+  }
+  #order ul li{
+    font-family: Segoe Print;;
+  }
+  
+
   footer{
     
       background-color: rgb(185, 122, 67);
