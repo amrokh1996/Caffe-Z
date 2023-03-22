@@ -23,7 +23,7 @@
     border-radius: 20px;
     border: 0.2rem black solid;
     width: 10rem;
-    position: absolute;
+    position: fixed;
     top: 40%;
     left: 40%;
     background-color: rgb(253, 228, 194);
@@ -38,7 +38,9 @@
   #order ul li{
     font-family: Segoe Print;;
   }
-  
+  #myForm .input1{
+    margin: 1rem;
+  }
 
   footer{
     
